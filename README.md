@@ -10,8 +10,8 @@
 
 ## Features
 
-- Laravel Mix integration
-- Updated to Tailwind v2
+- Laravel Mix 6 integration
+- Latest Tailwind 2.1.2
 
 ## Todo
 
@@ -23,7 +23,7 @@
 
 ```
 git clone git@github.com:fathur-xoxzo/twadmin-html.git
-cd twadmin
+cd twadmin-html
 npm install
 npx mix
 ```
