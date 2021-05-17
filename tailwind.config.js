@@ -3,9 +3,12 @@ const plugin = require('tailwindcss/plugin')
 const Color = require('color')
 
 module.exports = {
-  purge: [
-    './src/**/*.html',
-  ],
+  purge: {
+    content: [
+      './src/**/*.html',
+    ],
+    layers: ["base", "utilities"],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     themeVariants: ['dark'],
@@ -205,6 +208,7 @@ module.exports = {
     require("@tailwindcss/forms")({
       strategy: 'class',
     }),
+    require("windstrap"),
     plugin(({ addUtilities, e, theme, variants }) => {
       const newUtilities = {}
       Object.entries(theme('colors')).map(([name, value]) => {
