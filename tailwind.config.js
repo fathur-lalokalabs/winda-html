@@ -209,6 +209,7 @@ module.exports = {
       strategy: 'class',
     }),
     require("windstrap"),
+    require('tailwindcss-tables')(),
     plugin(({ addUtilities, e, theme, variants }) => {
       const newUtilities = {}
       Object.entries(theme('colors')).map(([name, value]) => {
