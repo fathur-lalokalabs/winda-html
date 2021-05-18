@@ -846,17 +846,29 @@
             </h2>
 
             <div
-              class="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800"
+              class="px-4 py-3 mb-8 bg-white rounded-lg shadow-xs dark:bg-gray-800 border dark:border-gray-700"
             >
-              <p class="mb-4 text-gray-600 dark:text-gray-400">
-                Simple modal using Bootstrap 5 modal + TailwindCSS. Powered by
+              <div class="mb-4 flex justify-between items-center">
+                <p class="mb-4 text-gray-600 dark:text-gray-400">
+                  Bootstrap 5 modal + TailwindCSS. Powered by
+                  <a
+                    class="underline"
+                    href="https://windstrap.netlify.app/"
+                    target="_blank"
+                    >Windstrap</a
+                  >
+                </p>
                 <a
-                  class="underline"
-                  href="https://windstrap.netlify.app/"
+                  class="underline dark:text-gray-300"
+                  href="https://getbootstrap.com/docs/5.0/components/modal/"
                   target="_blank"
-                  >Windstrap</a
+                  >View Bootstrap docs</a
                 >
-              </p>
+              </div>
+
+              <p class="text-gray-500 text-xs mb-4">Default modal</p>
+
+              <!-- default modal -->
 
               <div>
                 <!-- Button trigger modal -->
@@ -915,6 +927,237 @@
                   </div>
                 </div>
               </div>
+
+              <!-- end default modal -->
+
+              <hr class="my-10 dark:border-gray-700" />
+
+              <p class="text-gray-500 text-xs mb-4">Scrollable Modal</p>
+
+              <div>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="p-2.5 text-sm font-medium bg-purple-600 text-white rounded-md shadow-sm hover:bg-purple-700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleScrollableModal"
+                >
+                  Launch scrollable modal
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleScrollableModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleScrollableModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="font-semibold modal-title"
+                          id="exampleScrollableModalLabel"
+                        >
+                          Modal title
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal! Woohoo,
+                        you're reading this text in a modal! Woohoo, you're
+                        reading this text in a modal! Woohoo, you're reading
+                        this text in a modal! Woohoo, you're reading this text
+                        in a modal! Woohoo, you're reading this text in a modal!
+                        Woohoo, you're reading this text in a modal!
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="px-4 py-2 text-sm font-medium text-gray-700 transition bg-gray-100 rounded-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="button"
+                          class="px-4 py-2 text-sm font-medium text-white transition bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        >
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <hr class="my-10 dark:border-gray-700" />
+
+              <!-- modal size -->
+
+              <p class="text-gray-500 text-xs mb-4">Modal size</p>
+
+              <div>
+                <!-- Button trigger XL modal -->
+                <button
+                  type="button"
+                  class="p-2.5 text-sm font-medium bg-purple-600 text-white rounded-md shadow-sm hover:bg-purple-700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleXlModal"
+                >
+                  Launch XL modal
+                </button>
+                <!-- end Button trigger XL modal -->
+
+                <!-- Button trigger LG modal -->
+                <button
+                  type="button"
+                  class="p-2.5 text-sm font-medium bg-purple-600 text-white rounded-md shadow-sm hover:bg-purple-700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleLgModal"
+                >
+                  Launch LG modal
+                </button>
+                <!-- end Button trigger LG modal -->
+
+                <!-- XL Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleXlModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleXlModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="font-semibold modal-title"
+                          id="exampleXlModalLabel"
+                        >
+                          Modal title
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">XL Modal!</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="px-4 py-2 text-sm font-medium text-gray-700 transition bg-gray-100 rounded-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="button"
+                          class="px-4 py-2 text-sm font-medium text-white transition bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        >
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end XL Modal -->
+
+                <!-- LG Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleLgModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleLgModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="font-semibold modal-title"
+                          id="exampleLgModalLabel"
+                        >
+                          Modal title
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">LG Modal!</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="px-4 py-2 text-sm font-medium text-gray-700 transition bg-gray-100 rounded-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="button"
+                          class="px-4 py-2 text-sm font-medium text-white transition bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        >
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end LG Modal -->
+              </div>
+
+              <!-- end modal size -->
             </div>
           </div>
         </main>
