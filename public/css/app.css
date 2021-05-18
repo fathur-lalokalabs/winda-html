@@ -50294,6 +50294,328 @@ video {
   box-shadow: 0 0 0 3px hsla(327.4, 82.9%, 83.9%, 0.45);
 }
 
+/* button style */
+
+.btn {
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 1.25rem;
+}
+
+.btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 150ms;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 3px hsla(250.60000000000002, 93.9%, 87.1%, 0.45);
+}
+
+.btn-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(126, 58, 242, var(--tw-bg-opacity));
+}
+
+.btn-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(108, 43, 217, var(--tw-bg-opacity));
+}
+
+.btn-primary:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(126, 58, 242, var(--tw-bg-opacity));
+}
+
+.btn-outline-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(108, 43, 217, var(--tw-bg-opacity));
+}
+
+.btn-outline-primary:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(126, 58, 242, var(--tw-bg-opacity));
+}
+
+.btn-outline-primary {
+  --tw-border-opacity: 1;
+  border-color: rgba(126, 58, 242, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(126, 58, 242, var(--tw-text-opacity));
+}
+
+.btn-outline-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 114, 117, var(--tw-bg-opacity));
+}
+
+.btn-secondary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(76, 79, 82, var(--tw-bg-opacity));
+}
+
+.btn-secondary:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 114, 117, var(--tw-bg-opacity));
+}
+
+.btn-outline-secondary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 114, 117, var(--tw-bg-opacity));
+}
+
+.btn-outline-secondary:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 114, 117, var(--tw-bg-opacity));
+}
+
+.btn-outline-secondary {
+  --tw-border-opacity: 1;
+  border-color: rgba(112, 114, 117, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(112, 114, 117, var(--tw-text-opacity));
+}
+
+.btn-outline-secondary:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-success {
+  --tw-bg-opacity: 1;
+  background-color: rgba(14, 159, 110, var(--tw-bg-opacity));
+}
+
+.btn-success:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(5, 122, 85, var(--tw-bg-opacity));
+}
+
+.btn-success:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(14, 159, 110, var(--tw-bg-opacity));
+}
+
+.btn-outline-success:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(14, 159, 110, var(--tw-bg-opacity));
+}
+
+.btn-outline-success:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(14, 159, 110, var(--tw-bg-opacity));
+}
+
+.btn-outline-success {
+  --tw-border-opacity: 1;
+  border-color: rgba(14, 159, 110, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(14, 159, 110, var(--tw-text-opacity));
+}
+
+.btn-outline-success:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-warning {
+  --tw-bg-opacity: 1;
+  background-color: rgba(227, 160, 8, var(--tw-bg-opacity));
+}
+
+.btn-warning:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(194, 120, 3, var(--tw-bg-opacity));
+}
+
+.btn-warning:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(227, 160, 8, var(--tw-bg-opacity));
+}
+
+.btn-outline-warning:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(227, 160, 8, var(--tw-bg-opacity));
+}
+
+.btn-outline-warning:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(227, 160, 8, var(--tw-bg-opacity));
+}
+
+.btn-outline-warning {
+  --tw-border-opacity: 1;
+  border-color: rgba(227, 160, 8, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(227, 160, 8, var(--tw-text-opacity));
+}
+
+.btn-outline-warning:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-info {
+  --tw-bg-opacity: 1;
+  background-color: rgba(141, 162, 251, var(--tw-bg-opacity));
+}
+
+.btn-info:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 117, 245, var(--tw-bg-opacity));
+}
+
+.btn-info:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(141, 162, 251, var(--tw-bg-opacity));
+}
+
+.btn-outline-info:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(141, 162, 251, var(--tw-bg-opacity));
+}
+
+.btn-outline-info:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(141, 162, 251, var(--tw-bg-opacity));
+}
+
+.btn-outline-info {
+  --tw-border-opacity: 1;
+  border-color: rgba(141, 162, 251, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(141, 162, 251, var(--tw-text-opacity));
+}
+
+.btn-outline-info:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-danger {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 36, 36, var(--tw-bg-opacity));
+}
+
+.btn-danger:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(200, 30, 30, var(--tw-bg-opacity));
+}
+
+.btn-danger:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 36, 36, var(--tw-bg-opacity));
+}
+
+.btn-outline-danger:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 36, 36, var(--tw-bg-opacity));
+}
+
+.btn-outline-danger:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 36, 36, var(--tw-bg-opacity));
+}
+
+.btn-outline-danger {
+  --tw-border-opacity: 1;
+  border-color: rgba(224, 36, 36, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(224, 36, 36, var(--tw-text-opacity));
+}
+
+.btn-outline-danger:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-light {
+  --tw-bg-opacity: 1;
+  background-color: rgba(244, 245, 247, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(26, 28, 35, var(--tw-text-opacity));
+}
+
+.btn-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(18, 19, 23, var(--tw-bg-opacity));
+}
+
+.btn-outline-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(18, 19, 23, var(--tw-bg-opacity));
+}
+
+.btn-outline-dark:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(18, 19, 23, var(--tw-bg-opacity));
+}
+
+.btn-outline-dark {
+  --tw-border-opacity: 1;
+  border-color: rgba(18, 19, 23, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(18, 19, 23, var(--tw-text-opacity));
+}
+
+.btn-outline-dark:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-link {
+  --tw-text-opacity: 1;
+  color: rgba(126, 58, 242, var(--tw-text-opacity));
+  text-decoration: underline;
+}
+
+.btn-xl {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.btn-lg {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.btn-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+/* form input style */
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
