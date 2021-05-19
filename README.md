@@ -8,6 +8,10 @@
 
 - Forked from https://github.com/estevanmaito/windmill-dashboard
 
+## Demo
+
+https://fathur-xoxzo.github.io/twadmin-html/
+
 ## Features
 
 - Laravel Mix 6 integration
