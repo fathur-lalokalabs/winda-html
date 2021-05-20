@@ -50577,6 +50577,10 @@ th {
   box-shadow: 0 0 0 3px hsla(327.4, 82.9%, 83.9%, 0.45);
 }
 
+[x-cloak] {
+  display: none;
+}
+
 /* button style */
 
 .btn {
@@ -50895,6 +50899,15 @@ th {
   padding-bottom: 0.25rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
 }
 
 /* form input style */
