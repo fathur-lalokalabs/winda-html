@@ -1,27 +1,33 @@
-# Winda 0.1
+# Winda HTML 1.0
 
 ## Introduction
 
-- This repo serve as base layout when starting new projects
+- A collection of TailwindCSS components from various source.
 
-- New improvements and components will be added from time to time
-
-- Forked from https://github.com/estevanmaito/windmill-dashboard
+- Layout forked from https://github.com/estevanmaito/windmill-dashboard
 
 ## Demo
 
 https://fathur-xoxzo.github.io/winda-html/
 
-## Features
+## Components
 
-- Laravel Mix 6 integration
-- Latest Tailwind 2.1.2
+- Daisy UI https://daisyui.com/
+- Tailwind Forms https://github.com/tailwindlabs/tailwindcss-forms
+- Tailwind Bootstrap Tables https://github.com/drehimself/tailwindcss-tables
+- Windstrap https://windstrap.netlify.app/
+
+## Tools
+
+- Tailwind 2.1.2
+- AlpineJS
+- Laravel Mix 6 (webpack)
 
 ## Todo
 
-- Add more sample layout
-- Customize the style
-- Dark mode based on native Tailwind feature
+- Breadcrumbs
+- Badge
+- Toast
 
 ## Installation
 
