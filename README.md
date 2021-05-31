@@ -1,4 +1,4 @@
-# TwAdmin 0.1
+# Winda 0.1
 
 ## Introduction
 
@@ -10,7 +10,7 @@
 
 ## Demo
 
-https://fathur-xoxzo.github.io/twadmin-html/
+https://fathur-xoxzo.github.io/winda-html/
 
 ## Features
 
@@ -26,8 +26,8 @@ https://fathur-xoxzo.github.io/twadmin-html/
 ## Installation
 
 ```
-git clone git@github.com:fathur-xoxzo/twadmin-html.git
-cd twadmin-html
+git clone git@github.com:fathur-xoxzo/winda-html.git
+cd winda-html
 npm install
 npx mix
 ```
