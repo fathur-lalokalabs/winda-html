@@ -12,7 +12,6 @@ https://fathur-xoxzo.github.io/winda-html/
 
 ## Components
 
-- Daisy UI https://daisyui.com/
 - Tailwind Forms https://github.com/tailwindlabs/tailwindcss-forms
 - Tailwind Bootstrap Tables https://github.com/drehimself/tailwindcss-tables
 - Windstrap https://windstrap.netlify.app/
