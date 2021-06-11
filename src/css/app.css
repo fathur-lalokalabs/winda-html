@@ -8,91 +8,91 @@
 
 /* button style */
 
-.btn-w {
+.btn {
     @apply px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-transparent border border-transparent rounded-lg focus:outline-none focus:shadow-outline-purple;
 }
 
-.btn-w-primary {
+.btn-primary {
     @apply bg-purple-600 active:bg-purple-600 hover:bg-purple-700;
 }
 
-.btn-w-outline-primary {
+.btn-outline-primary {
     @apply text-purple-600 hover:text-white border-purple-600 active:bg-purple-600 hover:bg-purple-700;
 }
 
-.btn-w-secondary {
+.btn-secondary {
     @apply bg-gray-500 active:bg-gray-500 hover:bg-gray-600;
 }
 
-.btn-w-outline-secondary {
+.btn-outline-secondary {
     @apply text-gray-500 hover:text-white border-gray-500 active:bg-gray-500 hover:bg-gray-500;
 }
 
-.btn-w-success {
+.btn-success {
     @apply bg-green-500 active:bg-green-500 hover:bg-green-600;
 }
 
-.btn-w-outline-success {
+.btn-outline-success {
     @apply text-green-500 hover:text-white border-green-500 active:bg-green-500 hover:bg-green-500;
 }
 
-.btn-w-warning {
+.btn-warning {
     @apply bg-yellow-400 active:bg-yellow-400 hover:bg-yellow-500;
 }
 
-.btn-w-outline-warning {
+.btn-outline-warning {
     @apply text-yellow-400 hover:text-white border-yellow-400 active:bg-yellow-400 hover:bg-yellow-400;
 }
 
-.btn-w-info {
+.btn-info {
     @apply bg-indigo-400 active:bg-indigo-400 hover:bg-indigo-500;
 }
 
-.btn-w-outline-info {
+.btn-outline-info {
     @apply text-indigo-400 hover:text-white border-indigo-400 active:bg-indigo-400 hover:bg-indigo-400;
 }
 
-.btn-w-danger {
+.btn-danger {
     @apply bg-red-600 active:bg-red-600 hover:bg-red-700;
 }
 
-.btn-w-outline-danger {
+.btn-outline-danger {
     @apply text-red-600 hover:text-white border-red-600 active:bg-red-600 hover:bg-red-600;
 }
 
-.btn-w-light {
+.btn-light {
     @apply bg-gray-100 text-gray-800;
 }
 
-.btn-w-dark {
+.btn-dark {
     @apply bg-gray-900;
 }
 
-.btn-w-outline-dark {
+.btn-outline-dark {
     @apply text-gray-900 hover:text-white border-gray-900 active:bg-gray-900 hover:bg-gray-900;
 }
 
-.btn-w-link {
+.btn-link {
     @apply text-purple-600 underline;
 }
 
-.btn-w-xl {
+.btn-xl {
     @apply px-10 py-4;
 }
 
-.btn-w-lg {
+.btn-lg {
     @apply px-5 py-3;
 }
 
-.btn-w-sm {
+.btn-sm {
     @apply px-3 py-1 text-sm;
 }
 
-.btn-w-block {
+.btn-block {
     @apply w-full;
 }
 
-.btn-w-icon {
+.btn-icon {
     @apply inline-flex items-center;
 }
 
